@@ -1,2 +1,2 @@
 # routes-list
-Route list table output
+Routes list table output
