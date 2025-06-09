@@ -1,0 +1,32 @@
+.headerCell {
+  transition: background-color 0.2s;
+}
+
+.active {
+  color: var(--blue);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.arrow {
+  font-size: 50%;
+}
+
+th {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--light-orange);
+  background-color: var(--lighter-orange);
+  cursor: pointer;
+  user-select: none;
+  font-weight: normal;
+}
+
+th:hover {
+  background-color: #eaeaea;
+}
